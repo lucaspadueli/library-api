@@ -9,6 +9,7 @@ const app = express();
 
 //configuracoes
 require('./db');
+require('./configs')(app);
 //middlewares gerais
 
 //rotas
